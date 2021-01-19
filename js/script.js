@@ -11,10 +11,10 @@ for(var key in studenteDaCiclare)  {
 }
 // Creo un array di oggetti di studenti, poi ciclo ogni studente stampando per ognuno il nome e il cognome:
 var listaStudenti = [
-  {'nome': 'Tommaso', 'cognome': 'Zorzi', 'eta': 25,},
-  {'nome': 'Stefania', 'cognome': 'Orlando', 'eta': 54,},
-  {'nome': 'Andrea', 'cognome': 'Zenga', 'eta': 28,},
-]
+  {'nome': 'Tommaso', 'cognome': 'Zorzi', 'eta': 25},
+  {'nome': 'Stefania', 'cognome': 'Orlando', 'eta': 54},
+  {'nome': 'Andrea', 'cognome': 'Zenga', 'eta': 28}
+];
 
 for(var x = 0; x < listaStudenti.length; x++) {
 
